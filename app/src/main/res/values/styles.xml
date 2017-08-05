@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="Special_2017_AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="colorPrimary">@color/Special_2017_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/Special_2017_colorPrimaryDark</item>
+        <item name="colorAccent">@color/Special_2017_colorAccent</item>
+    </style>
+</resources>

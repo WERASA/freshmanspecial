@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.mredrock.freshmanspecial">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/Special_2017_app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Special_2017_AppTheme">
+        <activity android:name=".Ui.Special_2017_HomePagerActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".Ui.Special_2017_DataActivity">
+           </activity>
+        <activity android:name=".Ui.Special_2017_StrategyActivity"></activity>
+    </application>
+
+</manifest>

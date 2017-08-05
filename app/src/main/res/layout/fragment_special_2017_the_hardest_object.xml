@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable
+            name="circle"
+            type="com.mredrock.freshmanspecial.Model.Special_2017_Circle"
+            />
+
+    </data>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/Special_2017_whileBack">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Special_2017_whileBack"
+        android:layout_marginTop="20dp">
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="40dp"
+            app:cardElevation ="0dp"
+            app:cardCornerRadius="20dp"
+            app:cardBackgroundColor="#EBF5FA"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginLeft="@dimen/Special_2017_activity_horizontal_margin"
+                android:hint="请选择学院"
+                android:textColorHint="#969494"
+                android:textSize="14sp"
+                android:textColor="#000"
+                />
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Special_2017_whileBack"
+        android:layout_marginTop="20dp">
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="40dp"
+            app:cardElevation ="0dp"
+            app:cardCornerRadius="20dp"
+            app:cardBackgroundColor="#EBF5FA">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginLeft="@dimen/Special_2017_activity_horizontal_margin"
+                android:hint="请选择专业"
+                android:textColorHint="#969494"
+                android:textSize="14sp"
+                android:textColor="#000"
+                />
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+
+    <RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/Special_2017_whileBack"
+              android:layout_marginTop="30dp">
+    <com.mredrock.freshmanspecial.Ui.View.Special_2017_MyCircleView
+        android:id="@+id/special_2017_data_the_hardest_object_yellow"
+        android:layout_width="@dimen/Special_2017_big_circle"
+        android:layout_height="@dimen/Special_2017_big_circle"
+        android:layout_centerHorizontal="true"
+
+        />
+    <com.mredrock.freshmanspecial.Ui.View.Special_2017_MyCircleView
+        android:id="@+id/special_2017_data_the_hardest_object_green"
+
+        android:layout_marginTop="10dp"
+        android:layout_width="@dimen/Special_2017_normal_circle"
+        android:layout_height="@dimen/Special_2017_normal_circle"
+        android:layout_centerHorizontal="true"
+
+        />
+    <com.mredrock.freshmanspecial.Ui.View.Special_2017_MyCircleView
+        android:id="@+id/special_2017_data_the_hardest_object_blue"
+        android:layout_marginTop="20dp"
+        android:layout_width="@dimen/Special_2017_small_circle"
+        android:layout_height="@dimen/Special_2017_small_circle"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+        <LinearLayout
+            android:id="@+id/special_2017_data_the_hardest_object_yellow_button"
+            android:layout_toLeftOf="@+id/special_2017_data_the_hardest_object_green_button"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="#FBFEB9"
+                />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="英语"
+                android:textColor="#969494"
+                android:textSize="13sp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/special_2017_data_the_hardest_object_green_button"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="#9EFCEE"/>
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="数学"
+                android:textColor="#969494"
+                android:textSize="13sp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/special_2017_data_the_hardest_object_blue_button"
+            android:orientation="horizontal"
+            android:layout_toRightOf="@+id/special_2017_data_the_hardest_object_green_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="#B9E5FE"
+                />
+            <TextView
+                android:layout_marginLeft="10dp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="历史"
+                android:textColor="#969494"
+                android:textSize="13sp"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
+</layout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Special_2017_colorPrimary">#2DC1FE</color>
+    <color name="Special_2017_colorPrimaryDark">#508DFF</color>
+    <color name="Special_2017_colorAccent">#65B2FF</color>
+    <color name="Special_2017_whileBack">#FFF</color>
+    <color name="Special_2017_onChoice">#65B2FF</color>
+    <color name="Special_2017_onTextNoChoice">#949494</color>
+</resources>
