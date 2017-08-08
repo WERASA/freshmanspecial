@@ -1,4 +1,4 @@
-package com.mredrock.freshmanspecial.Ui.Fragment;
+package com.mredrock.freshmanspecial.ui.Fragment;
 
 import android.databinding.DataBindingUtil;
 import android.databinding.ViewDataBinding;
@@ -13,9 +13,9 @@ import android.widget.TextView;
 
 import com.bigkoo.pickerview.OptionsPickerView;
 import com.mredrock.freshmanspecial.BR;
-import com.mredrock.freshmanspecial.Model.Special_2017_Circle;
+import com.mredrock.freshmanspecial.model.Special_2017_Circle;
 import com.mredrock.freshmanspecial.R;
-import com.mredrock.freshmanspecial.Ui.View.Special_2017_MyCircleView;
+import com.mredrock.freshmanspecial.ui.View.Special_2017_MyCircleView;
 
 import java.util.ArrayList;
 

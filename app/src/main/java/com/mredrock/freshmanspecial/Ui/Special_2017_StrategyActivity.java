@@ -1,4 +1,4 @@
-package com.mredrock.freshmanspecial.Ui;
+package com.mredrock.freshmanspecial.ui;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

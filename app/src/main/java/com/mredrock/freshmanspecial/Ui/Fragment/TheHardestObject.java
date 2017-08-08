@@ -1,6 +1,5 @@
-package com.mredrock.freshmanspecial.Ui.Fragment;
+package com.mredrock.freshmanspecial.ui.Fragment;
 
-import android.database.DatabaseUtils;
 import android.databinding.DataBindingUtil;
 import android.databinding.ViewDataBinding;
 import android.os.Bundle;
@@ -11,9 +10,9 @@ import android.view.View;
 import android.view.ViewGroup;
 
 
-import com.mredrock.freshmanspecial.Model.Special_2017_Circle;
+import com.mredrock.freshmanspecial.model.Special_2017_Circle;
 import com.mredrock.freshmanspecial.R;
-import com.mredrock.freshmanspecial.Ui.View.Special_2017_MyCircleView;
+import com.mredrock.freshmanspecial.ui.View.Special_2017_MyCircleView;
 
 /**
  * Created by Administrator on 2017/8/3 0003.

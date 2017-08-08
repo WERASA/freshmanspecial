@@ -1,4 +1,4 @@
-package com.mredrock.freshmanspecial.Ui.View;
+package com.mredrock.freshmanspecial.ui.View;
 
 import android.content.Context;
 import android.graphics.Canvas;

@@ -1,6 +1,5 @@
-package com.mredrock.freshmanspecial.Ui.View;
+package com.mredrock.freshmanspecial.ui.View;
 
-import android.animation.Animator;
 import android.animation.ValueAnimator;
 import android.content.Context;
 import android.graphics.Canvas;
@@ -11,7 +10,7 @@ import android.graphics.RectF;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.mredrock.freshmanspecial.Model.Special_2017_Circle;
+import com.mredrock.freshmanspecial.model.Special_2017_Circle;
 
 import java.util.ArrayList;
 

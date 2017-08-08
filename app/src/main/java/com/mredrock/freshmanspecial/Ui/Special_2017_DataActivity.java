@@ -1,4 +1,4 @@
-package com.mredrock.freshmanspecial.Ui;
+package com.mredrock.freshmanspecial.ui;
 
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
@@ -8,10 +8,10 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 
 import com.mredrock.freshmanspecial.R;
-import com.mredrock.freshmanspecial.Ui.Adapter.Special_2017_DataViewPagerAdapter;
-import com.mredrock.freshmanspecial.Ui.Fragment.ManAndWoman;
-import com.mredrock.freshmanspecial.Ui.Fragment.TheHardestObject;
-import com.mredrock.freshmanspecial.Ui.Fragment.WorkPercent;
+import com.mredrock.freshmanspecial.ui.Adapter.Special_2017_DataViewPagerAdapter;
+import com.mredrock.freshmanspecial.ui.Fragment.ManAndWoman;
+import com.mredrock.freshmanspecial.ui.Fragment.TheHardestObject;
+import com.mredrock.freshmanspecial.ui.Fragment.WorkPercent;
 import com.mredrock.freshmanspecial.databinding.ActivitySpecial2017DataBinding;
 
 import java.util.ArrayList;

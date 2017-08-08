@@ -1,11 +1,11 @@
-package com.mredrock.freshmanspecial.Ui;
+package com.mredrock.freshmanspecial.ui;
 
 import android.content.Intent;
 import android.databinding.DataBindingUtil;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.mredrock.freshmanspecial.Interface.Presenterable;
+import com.mredrock.freshmanspecial._interface.Presenterable;
 import com.mredrock.freshmanspecial.R;
 import com.mredrock.freshmanspecial.databinding.ActivitySpecial2017HomePagerBinding;
 
